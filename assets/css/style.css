@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+body {
+  background: #0d192b;
+  font-family: "Outfit", sans-serif;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-wrapper .card {
+  background-color: #14253d;
+  border-radius: 1em;
+  box-shadow: 1px 8px 24px 6px rgba(4, 7, 12, 0.75);
+  -webkit-box-shadow: 1px 8px 24px 6px rgba(4, 7, 12, 0.75);
+  -moz-box-shadow: 1px 8px 24px 6px rgba(4, 7, 12, 0.75);
+  width: 300px;
+  height: 500px;
+  padding: 1.2em;
+}
+.card-wrapper .card .card-img-placeholder {
+  background: #fff;
+  width: 100%;
+  height: 250px;
+}
+.card-wrapper .card .card-img-placeholder img {
+  width: 100%;
+  border-radius: 0.5em;
+}
+.card-wrapper .card .nft-title {
+  margin-top: 1.5em;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card-wrapper .card .nft-description {
+  margin: 1em 0 1.3em;
+  font-size: 14px;
+  color: #8bacda;
+  font-weight: 400;
+}
+.card-wrapper .card .nft-stats {
+  font-size: 14px;
+}
+.card-wrapper .card .nft-stats .price {
+  color: #00fff7;
+}
+.card-wrapper .card .nft-stats .price p {
+  font-weight: 600;
+}
+.card-wrapper .card .nft-stats .days {
+  color: #8bacda;
+}
+.card-wrapper .card .nft-stats .days p {
+  margin-left: 5px;
+}
+.card-wrapper .card .line {
+  width: 100%;
+  height: 2px;
+  background-color: #2f415b;
+  margin: 20px 0 10px;
+}
+.card-wrapper .card .creator .avatar {
+  margin-top: 5px;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+}
+.card-wrapper .card .creator .avatar img {
+  position: absolute;
+  width: 100%;
+}
+.card-wrapper .card .creator p {
+  margin: 5px 0 0 10px;
+  color: #8bacda;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
